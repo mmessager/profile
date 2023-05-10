@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+body {
+  color: rgb(32, 104, 8);
+  background-color:rgb(230, 230, 179);
+  font-family: 'Open Sans', sans-serif;
+  font-weight:300;
+  color:rgb(32, 104, 8);
+  font-size:small;
+  line-height:normal
+}
+h1 {
+  color: rgb(32, 104, 8);
+  font-size:medium
+}
+h2 {
+  color: rgb(79, 189, 15);
+  font-size:small
+}
+a {
+  color:blueviolet
+}
+img {
+  border-radius: 30%;
+}
+#container {
+  text-align: center;
+  margin:auto;
+  background-color: rgb(252, 252, 251);          /* White background */
+  width: 50%;
+  padding: 30px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+}
+.subdiv {
+  border-radius: 4px;
+  padding:10px;
+  background-color: aliceblue;
+}
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 4px
+}
+#texto {
+  text-align: center;
+  margin:auto;
+  padding: 32px;
+  width: 50%
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
